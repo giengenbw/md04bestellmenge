@@ -1,0 +1,16 @@
+﻿# SAP 和 Excel 导出文件
+*.xlsx
+*.xls
+*.csv
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+.venv/
+venv/
+
+# 编辑器配置
+.vscode/
+.idea/
