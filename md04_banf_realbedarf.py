@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Berechnet den bis zu einem Stichtag tatsaechlich benoetigten Anteil einer BANF aus einem SAP-MD04-Excel-Export."""
+"""Berechnet den bis zu einem Stichtag tatsaechlich benoetigten Anteil einer BANF aus einem SAP-MD04-Excel-Export.
+python md04_banf_realbedarf.py EXPORT.xlsx --stichtag 31.12.2026 --banf
+"""
+
 
 from __future__ import annotations
 import argparse
