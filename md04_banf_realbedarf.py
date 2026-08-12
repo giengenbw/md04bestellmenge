@@ -3,7 +3,6 @@
 """Berechnet den bis zu einem Stichtag tatsaechlich benoetigten Anteil einer BANF aus einem SAP-MD04-Excel-Export."""
 
 from __future__ import annotations
-
 import argparse
 import re
 from dataclasses import dataclass
@@ -17,7 +16,6 @@ BANF_TYPES = {"BS-ANF", "BANF", "PURRQS"}
 DEMAND_TYPES = {"AR-RES", "SEKBED", "KUND-B", "UML-RES", "AB-RES"}
 STOCK_TYPES = {"BSTAND"}
 SAFETY_TYPES = {"SHBEST"}
-
 
 def norm(value: Any) -> str:
     return re.sub(r"\s+", "", str(value or "")).upper()

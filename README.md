@@ -357,7 +357,6 @@ This project is an independent utility for analytical support. It is not affilia
 The results depend on the completeness and accuracy of the exported data and the assumptions described above. Review the result before making purchasing, planning, production, inventory, or supplier decisions.
 
 ## Contributing
-
 Issues and pull requests are welcome. Useful contributions may include:
 
 - Support for additional SAP languages
